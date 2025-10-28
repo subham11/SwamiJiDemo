@@ -127,7 +127,7 @@ export const QuotesSection: React.FC<QuotesSectionProps> = ({ quotes }) => {
                     transition={{ delay: 0.4 }}
                     className="text-2xl md:text-3xl font-serif text-gray-800 mb-8 leading-relaxed"
                   >
-                    "{currentQuote.text[currentLang]}"
+                    &quot;{currentQuote.text[currentLang]}&quot;
                   </motion.blockquote>
 
                   {/* Context */}
@@ -192,11 +192,10 @@ export const QuotesSection: React.FC<QuotesSectionProps> = ({ quotes }) => {
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setCurrentIndex(index)}
-                className={`h-3 w-3 rounded-full transition-all ${
-                  index === currentIndex
+                className={`h-3 w-3 rounded-full transition-all ${index === currentIndex
                     ? 'bg-white w-8'
                     : 'bg-white/50 hover:bg-white/70'
-                }`}
+                  }`}
               />
             ))}
           </div>
