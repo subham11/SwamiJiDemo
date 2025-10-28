@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="retreatBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffc100;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff7400;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4d00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#retreatBg)"/>
+  
+  <!-- Mountains -->
+  <g opacity="0.4" fill="#ffffff">
+    <path d="M 0 500 L 150 300 L 300 400 L 450 250 L 600 380 L 750 320 L 800 500 Z"/>
+  </g>
+  
+  <!-- Temple/Ashram Structure -->
+  <g transform="translate(400, 400)" opacity="0.7">
+    <!-- Base -->
+    <rect x="-100" y="0" width="200" height="120" fill="#ffffff"/>
+    <!-- Roof -->
+    <path d="M -120 0 L 0 -60 L 120 0 Z" fill="#ffffff"/>
+    <!-- Dome -->
+    <ellipse cx="0" cy="-60" rx="50" ry="30" fill="#ffffff"/>
+    <!-- Door -->
+    <rect x="-20" y="60" width="40" height="60" fill="#ff7400"/>
+    <!-- Windows -->
+    <rect x="-70" y="30" width="30" height="30" fill="#ff7400"/>
+    <rect x="40" y="30" width="30" height="30" fill="#ff7400"/>
+  </g>
+  
+  <!-- Meditation Figures -->
+  <g opacity="0.5">
+    <!-- Left Figure -->
+    <g transform="translate(200, 480)">
+      <circle cx="0" cy="-15" r="10" fill="#ffffff"/>
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#ffffff"/>
+    </g>
+    
+    <!-- Center Figure -->
+    <g transform="translate(300, 490)">
+      <circle cx="0" cy="-15" r="10" fill="#ffffff"/>
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#ffffff"/>
+    </g>
+    
+    <!-- Right Figure -->
+    <g transform="translate(500, 485)">
+      <circle cx="0" cy="-15" r="10" fill="#ffffff"/>
+      <ellipse cx="0" cy="0" rx="15" ry="20" fill="#ffffff"/>
+    </g>
+  </g>
+  
+  <!-- Sun/Moon -->
+  <circle cx="650" cy="150" r="60" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Trees -->
+  <g opacity="0.5" fill="#ffffff">
+    <ellipse cx="100" cy="520" rx="30" ry="40"/>
+    <ellipse cx="80" cy="510" rx="25" ry="30"/>
+    <rect x="95" y="510" width="10" height="90"/>
+    
+    <ellipse cx="700" cy="530" rx="35" ry="45"/>
+    <ellipse cx="680" cy="520" rx="28" ry="35"/>
+    <rect x="695" y="520" width="10" height="80"/>
+  </g>
+  
+  <!-- Om in Sky -->
+  <text x="400" y="150" font-family="Arial" font-size="60" fill="#ffffff" text-anchor="middle" opacity="0.5">ॐ</text>
+  
+  <!-- Stars -->
+  <g opacity="0.6" fill="#ffffff">
+    <circle cx="150" cy="80" r="2"/>
+    <circle cx="250" cy="100" r="3"/>
+    <circle cx="550" cy="90" r="2.5"/>
+    <circle cx="650" cy="70" r="2"/>
+  </g>
+</svg>

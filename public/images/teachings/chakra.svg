@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7400;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffc100;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4d00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="energy">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#ff7400;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg5)"/>
+  
+  <!-- Central Energy Flow -->
+  <g opacity="0.4">
+    <ellipse cx="400" cy="300" rx="150" ry="400" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <ellipse cx="400" cy="300" rx="100" ry="350" fill="none" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  
+  <!-- Chakra Points -->
+  <!-- Crown Chakra -->
+  <g transform="translate(400, 80)">
+    <circle cx="0" cy="0" r="40" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Third Eye Chakra -->
+  <g transform="translate(400, 160)">
+    <circle cx="0" cy="0" r="38" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="18" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Throat Chakra -->
+  <g transform="translate(400, 240)">
+    <circle cx="0" cy="0" r="36" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Heart Chakra - Center -->
+  <g transform="translate(400, 320)">
+    <circle cx="0" cy="0" r="45" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="#ffffff" opacity="0.9"/>
+    <text x="0" y="10" font-family="Arial" font-size="30" fill="#ff4d00" text-anchor="middle">ॐ</text>
+  </g>
+  
+  <!-- Solar Plexus Chakra -->
+  <g transform="translate(400, 400)">
+    <circle cx="0" cy="0" r="36" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Sacral Chakra -->
+  <g transform="translate(400, 480)">
+    <circle cx="0" cy="0" r="38" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="18" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Root Chakra -->
+  <g transform="translate(400, 560)">
+    <circle cx="0" cy="0" r="40" fill="url(#energy)"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#ffffff" opacity="0.8"/>
+  </g>
+  
+  <!-- Energy Waves -->
+  <g opacity="0.3">
+    <path d="M 200 300 Q 300 280 400 300 Q 500 320 600 300" stroke="#ffffff" stroke-width="2" fill="none"/>
+    <path d="M 220 300 Q 310 285 400 300 Q 490 315 580 300" stroke="#ffffff" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.5" fill="#ffffff">
+    <circle cx="150" cy="200" r="3"/>
+    <circle cx="650" cy="250" r="3"/>
+    <circle cx="200" cy="450" r="3"/>
+    <circle cx="600" cy="400" r="3"/>
+    <circle cx="100" cy="350" r="2"/>
+    <circle cx="700" cy="300" r="2"/>
+  </g>
+</svg>

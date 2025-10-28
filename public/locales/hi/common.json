@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "मुख्य पृष्ठ",
+    "about": "स्वामी जी के बारे में",
+    "teachings": "शिक्षाएं",
+    "quotes": "प्रेरक उद्धरण",
+    "events": "कार्यक्रम",
+    "gallery": "गैलरी",
+    "contact": "संपर्क करें"
+  },
+  "hero": {
+    "cta": "शिक्षाओं का अन्वेषण करें",
+    "nextSlideIn": "अगली स्लाइड",
+    "slides": [
+      {
+        "title": "पवित्र यात्रा में आपका स्वागत है",
+        "subtitle": "दिव्य ज्ञान का अनुभव करें",
+        "description": "अपना आध्यात्मिक परिवर्तन शुरू करें",
+        "image": "/images/teachings/meditation.svg"
+      },
+      {
+        "title": "आंतरिक शांति की खोज",
+        "subtitle": "प्राचीन ज्ञान के माध्यम से",
+        "description": "ध्यान में शांति पाएं",
+        "image": "/images/teachings/lotus.svg"
+      },
+      {
+        "title": "आध्यात्मिक विकास को अपनाएं",
+        "subtitle": "दिव्य मार्गदर्शन के साथ",
+        "description": "अपनी चेतना को परिवर्तित करें",
+        "image": "/images/teachings/mandala.svg"
+      },
+      {
+        "title": "प्रकाश के पथ पर चलें",
+        "subtitle": "पवित्र ज्ञान द्वारा निर्देशित",
+        "description": "अपनी आध्यात्मिक यात्रा को प्रकाशित करें",
+        "image": "/images/teachings/enlightenment.svg"
+      },
+      {
+        "title": "अपनी आत्मा को जागृत करें",
+        "subtitle": "पवित्र शिक्षाओं के माध्यम से",
+        "description": "दिव्य ऊर्जा से जुड़ें",
+        "image": "/images/teachings/chakra.svg"
+      },
+      {
+        "title": "दिव्य के साथ एकता",
+        "subtitle": "पवित्र सामंजस्य में",
+        "description": "दिव्य के साथ एकता का अनुभव करें",
+        "image": "/images/teachings/peace.svg"
+      }
+    ]
+  },
+  "about": {
+    "title": "स्वामी जी के बारे में",
+    "subtitle": "आध्यात्मिक प्रकाश की एक किरण",
+    "biography": "जीवनी",
+    "philosophy": "दर्शन",
+    "mission": "मिशन"
+  },
+  "teachings": {
+    "title": "पवित्र शिक्षाएं",
+    "subtitle": "आधुनिक जीवन के लिए ज्ञान",
+    "readMore": "और पढ़ें",
+    "categories": {
+      "spirituality": "अध्यात्म",
+      "meditation": "ध्यान",
+      "philosophy": "दर्शन",
+      "lifestyle": "जीवन शैली"
+    }
+  },
+  "quotes": {
+    "title": "ज्ञान के शब्द",
+    "subtitle": "स्वामी जी से दैनिक प्रेरणा",
+    "shareQuote": "उद्धरण साझा करें"
+  },
+  "events": {
+    "title": "आगामी कार्यक्रम",
+    "subtitle": "दिव्य उत्सवों में हमारे साथ जुड़ें",
+    "date": "तारीख",
+    "location": "स्थान",
+    "register": "अभी पंजीकरण करें"
+  },
+  "footer": {
+    "copyright": "© 2025 स्वामी जी आधिकारिक वेबसाइट। सर्वाधिकार सुरक्षित।",
+    "followUs": "हमें फॉलो करें",
+    "newsletter": "न्यूज़लेटर की सदस्यता लें",
+    "emailPlaceholder": "अपना ईमेल दर्ज करें",
+    "subscribe": "सब्सक्राइब करें"
+  },
+  "common": {
+    "learnMore": "अधिक जानें",
+    "readMore": "और पढ़ें",
+    "close": "बंद करें",
+    "next": "अगला",
+    "previous": "पिछला",
+    "share": "साझा करें",
+    "download": "डाउनलोड करें"
+  }
+}

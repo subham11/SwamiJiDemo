@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-hindi text-gray-900;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply rounded-full bg-primary-orange px-8 py-3 font-semibold text-white shadow-lg transition-all hover:bg-primary-light hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply rounded-full border-2 border-primary-orange px-8 py-3 font-semibold text-primary-orange transition-all hover:bg-primary-orange hover:text-white;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-orange via-primary-gold to-primary-light bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .backdrop-blur-custom {
+    backdrop-filter: blur(10px);
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff4d00, #ff7400);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff7400, #ffc100);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #ff4d00, 0 0 10px #ff4d00;
+  }
+  50% {
+    box-shadow: 0 0 20px #ff4d00, 0 0 30px #ff4d00, 0 0 40px #ff7400;
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Hindi Font Support */
+.hindi-text {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+/* Selection */
+::selection {
+  background-color: #ff4d00;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #ff4d00;
+  color: white;
+}

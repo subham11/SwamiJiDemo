@@ -1,0 +1,77 @@
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+.slide-image {
+  transform-origin: center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform, opacity;
+}
+
+.slide-content {
+  transform-origin: center;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform, opacity;
+}
+
+.slide-indicator {
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Gradient overlay for images */
+.image-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+/* Animation keyframes for text reveal */
+@keyframes revealFromBottom {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Timer animation */
+@keyframes timerPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timer-number {
+  animation: timerPulse 1s ease-in-out;
+  will-change: transform;
+}
+
+.text-reveal {
+  animation: revealFromBottom 0.5s ease-out forwards;
+}
+
+/* Progressive loading effect for images */
+.image-loading {
+  filter: blur(10px);
+  transition: filter 0.3s ease-out;
+}
+
+.image-loaded {
+  filter: blur(0);
+}

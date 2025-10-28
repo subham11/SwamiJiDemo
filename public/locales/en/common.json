@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Swami Ji",
+    "teachings": "Teachings",
+    "quotes": "Inspirational Quotes",
+    "events": "Events",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cta": "Explore Teachings",
+    "nextSlideIn": "NEXT SLIDE IN",
+    "slides": [
+      {
+        "title": "Welcome to the Sacred Journey",
+        "subtitle": "Experience Divine Wisdom",
+        "description": "Begin your spiritual transformation",
+        "image": "/images/teachings/meditation.svg"
+      },
+      {
+        "title": "Discover Inner Peace",
+        "subtitle": "Through Ancient Wisdom",
+        "description": "Find tranquility in meditation",
+        "image": "/images/teachings/lotus.svg"
+      },
+      {
+        "title": "Embrace Spiritual Growth",
+        "subtitle": "With Divine Guidance",
+        "description": "Transform your consciousness",
+        "image": "/images/teachings/mandala.svg"
+      },
+      {
+        "title": "Walk the Path of Light",
+        "subtitle": "Guided by Sacred Knowledge",
+        "description": "Illuminate your spiritual journey",
+        "image": "/images/teachings/enlightenment.svg"
+      },
+      {
+        "title": "Awaken Your Spirit",
+        "subtitle": "Through Sacred Teachings",
+        "description": "Connect with divine energy",
+        "image": "/images/teachings/chakra.svg"
+      },
+      {
+        "title": "Unite with Divine",
+        "subtitle": "In Sacred Harmony",
+        "description": "Experience oneness with the divine",
+        "image": "/images/teachings/peace.svg"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Swami Ji",
+    "subtitle": "A Beacon of Spiritual Light",
+    "biography": "Biography",
+    "philosophy": "Philosophy",
+    "mission": "Mission"
+  },
+  "teachings": {
+    "title": "Sacred Teachings",
+    "subtitle": "Wisdom for Modern Life",
+    "readMore": "Read More",
+    "categories": {
+      "spirituality": "Spirituality",
+      "meditation": "Meditation",
+      "philosophy": "Philosophy",
+      "lifestyle": "Lifestyle"
+    }
+  },
+  "quotes": {
+    "title": "Words of Wisdom",
+    "subtitle": "Daily Inspiration from Swami Ji",
+    "shareQuote": "Share Quote"
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "subtitle": "Join Us in Divine Celebrations",
+    "date": "Date",
+    "location": "Location",
+    "register": "Register Now"
+  },
+  "footer": {
+    "copyright": "© 2025 Swami Ji Official Website. All rights reserved.",
+    "followUs": "Follow Us",
+    "newsletter": "Subscribe to Newsletter",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "share": "Share",
+    "download": "Download"
+  }
+}

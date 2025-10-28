@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Background Gradient -->
+  <defs>
+    <radialGradient id="portraitBg">
+      <stop offset="0%" style="stop-color:#ffc100;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4d00;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="aura">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ff7400;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#portraitBg)"/>
+  
+  <!-- Aura -->
+  <circle cx="300" cy="300" r="250" fill="url(#aura)" opacity="0.4"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="300" cy="300" r="200" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+  <circle cx="300" cy="300" r="220" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Silhouette Figure -->
+  <g transform="translate(300, 320)">
+    <!-- Head with Tilak -->
+    <circle cx="0" cy="-150" r="60" fill="#ffffff" opacity="0.9"/>
+    <circle cx="0" cy="-170" r="8" fill="#ff4d00"/>
+    
+    <!-- Body/Robes -->
+    <ellipse cx="0" cy="-50" rx="80" ry="100" fill="#ffffff" opacity="0.85"/>
+    
+    <!-- Arms in prayer position -->
+    <ellipse cx="0" cy="-60" rx="50" ry="15" fill="#ffffff" opacity="0.85"/>
+    
+    <!-- Lower body -->
+    <ellipse cx="0" cy="60" rx="90" ry="60" fill="#ffffff" opacity="0.85"/>
+  </g>
+  
+  <!-- Om Symbol Above Head -->
+  <text x="300" y="120" font-family="Arial" font-size="80" fill="#ffffff" text-anchor="middle" opacity="0.7">ॐ</text>
+  
+  <!-- Lotus Base -->
+  <g transform="translate(300, 520)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#ffffff" transform="rotate(0)"/>
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#ffffff" transform="rotate(45)"/>
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#ffffff" transform="rotate(90)"/>
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#ffffff" transform="rotate(135)"/>
+  </g>
+  
+  <!-- Decorative Stars -->
+  <g opacity="0.5" fill="#ffffff">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="500" cy="120" r="3"/>
+    <circle cx="120" cy="480" r="3"/>
+    <circle cx="480" cy="500" r="3"/>
+    <circle cx="80" cy="300" r="2"/>
+    <circle cx="520" cy="320" r="2"/>
+  </g>
+  
+  <!-- Sacred Geometry -->
+  <g opacity="0.2" fill="none" stroke="#ffffff" stroke-width="1">
+    <circle cx="300" cy="300" r="150"/>
+    <circle cx="300" cy="300" r="180"/>
+  </g>
+</svg>
